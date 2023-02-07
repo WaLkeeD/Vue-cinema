@@ -1,0 +1,143 @@
+@media (max-width: 1140px) {
+    .collections__catalog {
+        grid-template-columns: 40%;
+        justify-content: center;
+    }
+
+    .collections__item::after {
+        background-size: 95% 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .films__catalog {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(600px, max-content);
+    }
+
+    .films__item-bg {
+        object-fit: fill;
+    }
+
+    .films__item {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .collections__catalog {
+        grid-template-columns: 60%;
+        grid-auto-rows: 300px;
+    }
+
+    .series__collection {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .header__nav .container {
+        flex-direction: column;
+    }
+
+    .header__nav-link span {
+        padding: 20px 5px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .films__catalog {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(400px, max-content);
+
+    }
+
+    .collections__catalog {
+        grid-template-columns: 80%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .intro {
+        min-height: 600px;
+    }
+
+    .intro__heading {
+        font-size: 40px;
+    }
+
+    .films__catalog {
+        grid-template-columns: 80%;
+        grid-auto-rows: minmax(480px, max-content);
+        justify-content: center;
+    }
+
+    .widow {
+        padding: 40px 0;
+    }
+
+    .collections__catalog {
+        grid-template-columns: 1fr;
+    }
+
+    .series__collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 440px) {
+    .intro__heading {
+        font-size: 35px;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .films__catalog {
+        grid-template-columns: 1fr;
+    }
+
+    .widow__text {
+        margin: 20px 0;
+        line-height: 23px;
+    }
+
+    .collections__catalog {
+        grid-auto-rows: 230px;
+    }
+
+    .series__poster {
+        padding: 70px 10px;
+    }
+
+    .series__poster-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .series__item-bg {
+        object-fit: cover;
+    }
+    
+    .series__item {
+        grid-column: 1 / 3;
+    }
+    
+    .series__poster-text {
+        font-size: 15px;
+        text-align: left;
+    }
+}

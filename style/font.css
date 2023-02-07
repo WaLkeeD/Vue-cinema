@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Font-Awesome';
+    src: url(../fonts/Webfonts/fa-light-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Font-Awesome';
+    src: url(../fonts/Webfonts/fa-duotone-900.woff2);
+    font-weight: 900;
+}
+
+.fad {
+    font-family: 'Font-Awesome';
+    font-weight: 900;
+}
+
+.fal {
+    font-family: 'Font-Awesome';
+}
+
+.header__icon::before {
+    content: '\f008';
+    font-size: 50px;
+    color: var(--white);
+    font-style: normal;
+}
+
+.films__item-icon {
+    font-size: 40px;
+    font-style: normal;
+    position: relative; 
+    transition: .3s;  
+}
+
+.films__item-icon::before {
+    content: '\f04b'; 
+    color: #fff;
+    position: absolute;
+    
+}
+
+.films__item-icon::after {
+    content: '\10f04b';
+    color: rgba(255, 255, 255, 0.5);
+}
+
